@@ -6,14 +6,14 @@ import { useMovies } from "./customStates/useMovies";
 import { useLocalStorageState } from "./customStates/useLocalStorageState";
 
 // Import your components
-import Navbar from "./components/Navbar/Navbar";
-import Search from "./components/Navbar/Search";
 import NumResults from "./components/Navbar/NumResults";
+import ErrorMessage from "./components/ErrorMessage";
+import Navbar from "./components/Navbar/Navbar";
+import MovieList from "./components/MovieList";
 import Main from "./components/Main";
 import Box from "./components/Box";
 import Loader from "./components/Loader";
-import ErrorMessage from "./components/ErrorMessage";
-import MovieList from "./components/MovieList";
+import Search from "./components/Navbar/Search";
 import MovieDetails from "./components/MovieDetails";
 import WatchedSummary from "./components/WatchedSummary";
 import WatchedMovieList from "./components/WatchedMovieList";
